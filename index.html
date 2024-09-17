@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>ROMA'SPORT</title>
+</head>
+<body>
+
+    <header id="home">
+        <div class="header-container">
+            <img src="img/logo.png" alt="Logo ROMA'SPORT" class="logo">
+            <p>Sua Loja Digital</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#ajuda">Ajuda</a>
+        <a href="#shop">Catálogo</a>
+        <a href="#rodape">Contato</a>
+    </nav>
+
+    
+    <section class="intro-video">
+        <video class="intro-video-element" autoplay loop muted>
+            <source src="img/Apresentação com Tema Espacial Preto com Estrelas Moderno  (1).mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </section>
+    <!-- Carrossel de Imagens -->
+    <div class="carousel">
+        <div class="slides">
+            <img src="img/Home.png" alt="Home">
+            <img src="img/2.png" alt="Produto">
+            <img src="img/Contact.png" alt="Contato">
+        </div>
+        <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Catálogo de Produtos -->
+    <section id="shop" class="catalog">
+        <div class="category">
+            <img src="img/celulares.png" alt="Celulares">
+            <h3>Celulares</h3>
+            <p>Confira nossa seleção de smartphones das melhores marcas.</p>
+            <button>Ver Produtos</button>
+        </div>
+        <div class="category">
+            <img src="img/acessorios-celular.png" alt="Acessórios para Celulares">
+            <h3>Acessórios para Celulares</h3>
+            <p>Capinhas, carregadores, relógios, fones de ouvido e muito mais.</p>
+            <button>Ver Produtos</button>
+        </div>
+        <div class="category">
+            <img src="img/computadores.png" alt="Computadores">
+            <h3>Computadores</h3>
+            <p>Desktops e laptops para trabalho e jogos.</p>
+            <button>Ver Produtos</button>
+        </div>
+        <div class="category">
+            <img src="img/acessorios-pc.png" alt="Acessórios para Computadores">
+            <h3>Acessórios para Computadores</h3>
+            <p>Teclados, mouses, monitores e muito mais.</p>
+            <button>Ver Produtos</button>
+        </div>
+        <div class="category">
+            <img src="img/play.png" alt="Videogames">
+            <h3>Videogames</h3>
+            <p>Consoles e acessórios para jogos.</p>
+            <button>Ver Produtos</button>
+        </div>
+    </section>
+
+    <!-- Seção de localização e imagem da empresa -->
+<section id="ajuda" class="location">
+    <div class="company-image">
+        <img src="img/Contato.png" alt="Imagem da Empresa">
+    </div>
+    <div class="company-location">
+        <h2>Visite Nossa Loja Física</h2>
+        <p>Endereço: Rua Pé Da Lapa, 123 - Bairro da Lapa, Cidade SP/ZO</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@romasport.com</p>
+        <p>Horário de Funcionamento: Terça a Sexta, das 10h às 18h</p>
+    </div>
+</section>
+
+    
+    <a href="#home" class="scroll-to-top" title="Voltar ao Topo">&#9650;</a>
+
+    <footer id="rodape">
+        &copy; 2024 ROMA'SPORT. Todos os direitos reservados.
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
